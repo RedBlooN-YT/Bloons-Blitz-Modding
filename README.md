@@ -7,6 +7,7 @@ I made the exe to go around the patcher to make it easier and the mod that is in
 
 using this tool can sign you out of your bloons blitz account so make sure you are saving it with google play or an email first.
 
+The releases section of this repo has the EXE tool and the dll mod and the code section has the source files for the mod.
 Watch this video; LINK will go here when I have made the video, To see me doing these steps if you are confused the video also explains how you could make a mod for bloons blitz which isn't mentioned in this readme.
 
 To use it download the exe file and any mods you want from the releases tab.
