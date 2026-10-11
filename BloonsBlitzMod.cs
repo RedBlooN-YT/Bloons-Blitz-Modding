@@ -134,32 +134,5 @@ namespace BloonsBlitzMod
                 __instance.numberOfMonkeySlots = monkeySlots;
             }
         }
-
-        /* [HarmonyPatch(typeof(PlayerProfile), nameof(PlayerProfile.TrySpendMonkeyMoney))]
-         public class PlayerProfile_GameTick_Patch
-         {
-             public static void Postfix(PlayerProfile __instance)
-             {
-                 foreach (var monkey in __instance.monkeys)
-                 {
-                     if (monkey.id == "monkey.boomerang")
-                     {
-                         monkey.powerLevel = 20;
-                         monkey.level = 20;
-                         monkey.powerLevel = 20;
-                     }
-
-                     monkey.currentXP = 0;
-                 }
-
-                 foreach (var toy in __instance.toys)
-                 {
-                     toy.count = 1;
-                 }
-                 __instance.currencies.bloonStones = 999999;
-                 __instance.currencies.lives = 99;
-                 __instance.currencies.monkeyMoney = 999999;
-             }
-         }*/
     }
 }
